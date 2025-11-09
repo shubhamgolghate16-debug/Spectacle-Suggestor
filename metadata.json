@@ -1,0 +1,7 @@
+{
+  "name": "AI Vision Stylist",
+  "description": "An application that uses AI to edit images with text prompts and suggest flattering spectacle styles based on your face.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
