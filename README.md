@@ -1,20 +1,39 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+**✨ Features**
+- **Spectacle Suggester:**
+   - **Camera & Upload:** Use your device's camera for a live photo or upload an existing one.
+   - **AI Face Analysis:** The Gemini model analyzes your facial features to determine your face shape.
+   - **Personalized Recommendations:** Receive 5 unique spectacle style suggestions tailored to you.
+   - **Virtual Try-On:** See AI-generated images of how each recommended style and color would look on your face.
+   - **Detailed Style Cards:** Each suggestion includes the style name, color, a short description, and a clear reason why it complements your features.
+---
+**🛠️ Tech Stack**
+- **Frontend:** React with TypeScript, styled with Tailwind CSS.
+- **AI Model:** Google Gemini API (gemini-2.5-flash for analysis and gemini-2.5-flash-image for image generation/editing).
+- **Bundling/Setup:** Vite
+---
+**🔧 Getting Started (For Developers)**
 
-# Run and deploy your AI Studio app
+**1. Clone the repository:**
+````bash
+git clone https://github.com/your-username/ai-vision-stylist.git
+cd ai-vision-stylist
+````
 
-This contains everything you need to run your app locally.
+**2. Install Dependencies**
+````bash
+npm install
+````
+**3. Set up environment variables:**
+Create a file named .env in the root of the project.
+Obtain an API key from Google AI Studio.
+Add your API key to the .env file:
+````bash
+API_KEY=YOUR_GEMINI_API_KEY
+````
 
-View your app in AI Studio: https://ai.studio/apps/drive/1hMfhWQxC49WXgQCCRJasUf7HzygWVR5R
+**4. Run Dependencies**
+````bash
+npm run dev
+````
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+The application should now be running on your local server
