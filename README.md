@@ -15,7 +15,8 @@
 
 **1. Clone the repository:**
 ````bash
-https://github.com/shubhamgolghate16-debug/Spectacle-Suggestor 
+git clone https://github.com/shubhamgolghate16-debug/Spectacle-Suggestor.git
+cd Spectacle-Suggestor
 ````
 
 **2. Install Dependencies**
