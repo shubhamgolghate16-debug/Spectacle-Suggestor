@@ -15,8 +15,7 @@
 
 **1. Clone the repository:**
 ````bash
-git clone https://github.com/your-username/ai-vision-stylist.git
-cd ai-vision-stylist
+https://github.com/shubhamgolghate16-debug/Spectacle-Suggestor 
 ````
 
 **2. Install Dependencies**
